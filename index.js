@@ -6,7 +6,7 @@ server.get("/", (req, res) => {
 });
 
 server.get("/github", (req, res) => {
-  res.send("Welcome to github, not really");
+  res.send("Welcome to github for real");
 });
 
 let PORT = process.env.PORT ? process.env.PORT : 3000;
